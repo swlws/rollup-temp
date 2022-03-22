@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "ESNext" /* Specify what module code is generated. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+
+    // self
+    "typeRoots": ["./typings"],
+    "outDir": "./dist/tsc",
+    "noImplicitReturns": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
+    // "types": ["node"]
+    // 生成.d.ts文件
+    // "declaration": true,
+    // "moduleResolution": "node"
+    // "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*.ts", "typings/**/*.d.ts", "src/main.ts", "src/main.js"]
+}
